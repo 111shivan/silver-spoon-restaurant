@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silver Spoon Restaurant | Open 24 Hours</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+  <!-- HERO & INTRO SECTION -->
+  <header class="relative bg-amber-900 text-white py-16 px-6 text-center shadow-lg">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-5xl font-extrabold tracking-wide mb-2">🥄 Silver Spoon Restaurant</h1>
+      <p class="text-amber-200 text-lg font-medium mb-4">Multi-Cuisine Delights • Asian • North Indian • South Indian • Fast Food</p>
+      
+      <!-- Key Details Badges -->
+      <div class="flex flex-wrap justify-center items-center gap-3 text-sm my-6">
+        <span class="bg-amber-800 px-3 py-1.5 rounded-full flex items-center gap-1 font-semibold border border-amber-600">
+          <i class="fas fa-star text-yellow-400"></i> 3.7 ★ (96 Google Reviews)
+        </span>
+        <span class="bg-emerald-700 px-3 py-1.5 rounded-full font-semibold">
+          ₹200–400 per person
+        </span>
+        <span class="bg-red-600 px-3 py-1.5 rounded-full font-semibold animate-pulse">
+          ● Open 24 Hours
+        </span>
+      </div>
+
+      <p class="text-gray-200 max-w-2xl mx-auto text-base leading-relaxed">
+        Located in Sanai Lagari, Uttar Pradesh, Silver Spoon brings you authentic tandoori treats, steamed dumplings, and rich South Indian specialties. Enjoy our peaceful atmosphere with soft background music, high-speed Wi-Fi, and all-you-can-eat options!
+      </p>
+
+      <!-- Location & Direct Map Action Button -->
+      <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div class="text-xs text-amber-200">
+          📍 73H3+P39, Madhukarpur, Sanai Lagari, Uttar Pradesh 272207
+        </div>
+        <a href="https://maps.google.com/?cid=10337818938213125259" target="_blank" rel="noopener noreferrer" class="bg-amber-500 hover:bg-amber-400 text-amber-950 font-bold px-5 py-2.5 rounded-full shadow-md transition flex items-center gap-2 text-sm">
+          <i class="fas fa-location-arrow"></i> Get Google Maps Directions
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION TABS -->
+  <nav class="sticky top-0 z-50 bg-white shadow-md border-b border-gray-200 overflow-x-auto">
+    <div class="max-w-6xl mx-auto flex justify-start md:justify-center space-x-6 p-4 text-sm font-bold text-gray-700 whitespace-nowrap">
+      <a href="#starters" class="hover:text-amber-600">🥟 Starters & Soups</a>
+      <a href="#tandoori" class="hover:text-amber-600">🍢 Tandoori & Mughlai</a>
+      <a href="#mains" class="hover:text-amber-600">🥘 Main Course</a>
+      <a href="#chinese" class="hover:text-amber-600">🍜 Chinese & Noodles</a>
+      <a href="#breads" class="hover:text-amber-600">🫓 Breads & Rice</a>
+      <a href="#beverages" class="hover:text-amber-600">☕ Beverages & Desserts</a>
+      <a href="#location" class="text-amber-700 hover:text-amber-900 font-extrabold">📍 Location & Maps</a>
+    </div>
+  </nav>
+
+  <!-- MENU SECTIONS CONTAINER -->
+  <main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+
+    <!-- SECTION 1: STARTERS & SOUPS -->
+    <section id="starters">
+      <div class="border-b-2 border-amber-500 pb-2 mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 flex items-center gap-2">
+          <span>🥟</span> Starters & Soups
+        </h2>
+        <p class="text-gray-500 text-sm">Light bites and warm soups to ignite your appetite.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?auto=format&fit=crop&w=600&q=80" alt="Steamed Momos" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Steamed Veg Momos</h3>
+              <span class="text-amber-700 font-bold">₹99</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Soft steamed dumplings filled with spiced vegetables, served with fiery red garlic dip.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1541518763669-27fef04b14da?auto=format&fit=crop&w=600&q=80" alt="Cream of Tomato Soup" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Cream of Tomato Soup</h3>
+              <span class="text-amber-700 font-bold">₹119</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Rich, velvety tomato soup topped with fresh cream and butter-crisped croutons.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Paneer Pakoda" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Crispy Paneer Pakoda</h3>
+              <span class="text-amber-700 font-bold">₹129</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Fresh cottage cheese slabs coated in a seasoned gram flour batter and fried golden.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: TANDOORI & MUGHLAI SPECIALS -->
+    <section id="tandoori">
+      <div class="border-b-2 border-amber-500 pb-2 mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 flex items-center gap-2">
+          <span>🍢</span> Tandoori & Clay Oven Specials
+        </h2>
+        <p class="text-gray-500 text-sm">Char-grilled appetizers marinated in aromatic Indian spices.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=600&q=80" alt="Paneer Tikka" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Tandoori Paneer Tikka</h3>
+              <span class="text-amber-700 font-bold">₹220</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Cottage cheese marinated in yogurt & spices, skewered with onions and bell peppers.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1610057099443-f63a1523b0df?auto=format&fit=crop&w=600&q=80" alt="Malai Tikka" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Rich Malai Tikka</h3>
+              <span class="text-amber-700 font-bold">₹260</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Melt-in-your-mouth chicken/paneer marinated in heavy cream, cashew paste, and mild herbs.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80" alt="Tandoori Chicken" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Classic Tandoori Chicken</h3>
+              <span class="text-amber-700 font-bold">₹280</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Traditional smoky chicken roasted in clay tandoor served with mint chutney and lemon wedges.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: MAIN COURSE -->
+    <section id="mains">
+      <div class="border-b-2 border-amber-500 pb-2 mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 flex items-center gap-2">
+          <span>🥘</span> North & South Main Course
+        </h2>
+        <p class="text-gray-500 text-sm">Hearty curries and traditional gravies made for sharing.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80" alt="Paneer Butter Masala" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Paneer Butter Masala</h3>
+              <span class="text-amber-700 font-bold">₹190</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Soft paneer cooked in a creamy tomato, butter, and cashew nut gravy.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Dal Makhani" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Dal Makhani</h3>
+              <span class="text-amber-700 font-bold">₹160</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Slow-cooked black lentils simmered overnight with butter, cream, and subtle spices.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=600&q=80" alt="Butter Chicken" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Desi Butter Chicken</h3>
+              <span class="text-amber-700 font-bold">₹260</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Tender tandoori chicken pieces cooked in a rich, velvety tomato and butter sauce.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: CHINESE & NOODLES -->
+    <section id="chinese">
+      <div class="border-b-2 border-amber-500 pb-2 mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 flex items-center gap-2">
+          <span>🍜</span> Chinese & Indo-Asian Specialties
+        </h2>
+        <p class="text-gray-500 text-sm">Wok-tossed noodles, fried rice, and tangy gravies.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80" alt="Hakka Noodles" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Veg Hakka Noodles</h3>
+              <span class="text-amber-700 font-bold">₹120</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Thin noodles stir-fried on high heat with crisp vegetables and light soy sauce.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80" alt="Veg Fried Rice" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Veg Schezwan Fried Rice</h3>
+              <span class="text-amber-700 font-bold">₹140</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Long grain rice tossed with garlic, mixed veggies, and spicy Schezwan sauce.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80" alt="Chilli Paneer" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Chilli Paneer Gravy</h3>
+              <span class="text-amber-700 font-bold">₹180</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Crispy paneer cubes tossed in garlic, soy sauce, green chillies, and bell peppers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: INDIAN BREADS & RICE -->
+    <section id="breads">
+      <div class="border-b-2 border-amber-500 pb-2 mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 flex items-center gap-2">
+          <span>𫡓</span> Fresh Breads & Rice
+        </h2>
+        <p class="text-gray-500 text-sm">Freshly baked tandoori breads and fragrant rice dishes.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80" alt="Butter Naan" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Butter Naan & Roti</h3>
+              <span class="text-amber-700 font-bold">₹30 - ₹50</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Clay-oven baked flatbreads generously brushed with melted butter.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80" alt="Stuffed Kulcha" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Amritsari Aloo Kulcha</h3>
+              <span class="text-amber-700 font-bold">₹89</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Soft bread stuffed with spiced mashed potatoes and baked to golden perfection.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Jeera Rice" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Jeera Basmati Rice</h3>
+              <span class="text-amber-700 font-bold">₹110</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Fragrant long-grain Basmati rice tempered with toasted cumin seeds and ghee.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: BEVERAGES & DESSERTS -->
+    <section id="beverages">
+      <div class="border-b-2 border-amber-500 pb-2 mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 flex items-center gap-2">
+          <span>☕</span> Beverages & Refreshments
+        </h2>
+        <p class="text-gray-500 text-sm">Perfect drinks for any hour of the day or late night.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex">
+          <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Hot Coffee" class="w-1/3 h-full object-cover">
+          <div class="p-4 w-2/3">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Freshly Brewed Hot Coffee</h3>
+              <span class="text-amber-700 font-bold">₹60</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Rich, aromatic milk coffee crafted to keep you warm and refreshed 24 hours a day.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex">
+          <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80" alt="Cold Drinks & Shakes" class="w-1/3 h-full object-cover">
+          <div class="p-4 w-2/3">
+            <div class="flex justify-between items-center">
+              <h3 class="font-bold text-lg">Chilled Shakes & Drinks</h3>
+              <span class="text-amber-700 font-bold">₹90</span>
+            </div>
+            <p class="text-xs text-gray-500 mt-1">Refreshing cold beverages, thick chocolate shakes, and seasonal fruit drinks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: LOCATION & GOOGLE MAPS DIRECTIONS -->
+    <section id="location" class="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <h2 class="text-3xl font-bold text-amber-900 mb-2">📍 Visit Us Any Time</h2>
+        <p class="text-gray-600">We are open 24 hours a day, 7 days a week. Use Google Maps to navigate straight to our door!</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <!-- Interactive Embedded Google Map -->
+        <div class="w-full h-80 rounded-xl overflow-hidden shadow-inner border border-gray-200">
+          <iframe 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            loading="lazy" 
+            allowfullscreen 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0!2d82.880!3d27.150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3990db004ec95505%3A0x8f877d8d5c5fbcab!2sSilver%20Spoon%20restaurant!5e0!3m2!1sen!2sin!4v1710000000000">
+          </iframe>
+        </div>
+
+        <!-- Location Details & Action Buttons -->
+        <div class="space-y-4">
+          <div class="flex items-start gap-3">
+            <div class="bg-amber-100 text-amber-800 p-3 rounded-lg"><i class="fas fa-map-marker-alt text-xl"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-800">Address</h4>
+              <p class="text-sm text-gray-600">73H3+P39, Madhukarpur, Sanai Lagari, Uttar Pradesh 272207</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="bg-amber-100 text-amber-800 p-3 rounded-lg"><i class="fas fa-clock text-xl"></i></div>
+            <div>
+              <h4 class="font-bold text-gray-800">Opening Hours</h4>
+              <p class="text-sm text-gray-600">Open 24 Hours (Monday – Sunday)</p>
+            </div>
+          </div>
+
+          <div class="pt-4 flex flex-col sm:flex-row gap-4">
+            <a href="https://maps.google.com/?cid=10337818938213125259" target="_blank" rel="noopener noreferrer" class="flex-1 bg-amber-600 hover:bg-amber-700 text-white text-center font-bold py-3 px-6 rounded-xl shadow transition flex items-center justify-center gap-2">
+              <i class="fas fa-directions"></i> Open Directions in Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-center text-sm border-t border-gray-800">
+    <p class="text-white font-semibold">Silver Spoon Restaurant & Fine Dining</p>
+    <p class="mt-1">Open 24 Hours • High-Speed Wi-Fi Available • Birthday Parties & Catering</p>
+    <p class="mt-3 text-xs text-gray-500">📍 Madhukarpur, Sanai Lagari, Uttar Pradesh 272207</p>
+  </footer>
+
+</body>
+</html>
